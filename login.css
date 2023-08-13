@@ -1,0 +1,87 @@
+* {
+    padding: 0 auto;
+    margin: 0 auto;
+}
+body {
+    text-align: center;
+    width: 100%;
+}
+.container {
+    background-color: #FFFFFF;
+    padding: 0 auto;
+    margin: 0 auto;
+    width: 100%;
+    height: 0 auto;
+    justify-content: center;
+}
+.box {
+    opacity: 0.9;
+    margin-top: 30%;
+    margin-bottom: 20%;
+    background-color: transparent;
+    width: 80%;
+    height: 50%;
+    border:4px solid #272727;
+    border-radius: 5%;
+}
+.header p {
+    letter-spacing: -2px;
+    padding-top: 25px;
+    width: 80%;
+    color: #0E1803;
+    font-size: 35px;
+    font-family: Courier;
+    font-weight: 900;
+}
+.username input {
+    background-color: transparent;
+    border-top: 0.1px solid #272727;
+    border-bottom: 2px solid #272727;
+    border-left: 1px solid #272727;
+    border-right: 1.5px solid #272727;
+    margin-top: 60px;
+    width: 90%;
+    height: 47px;
+    border-radius: 5px;
+    color: #000000;
+    font-style: bold;
+    font-size: 15px;
+    text-align: center;
+    outline: none;
+}
+.username input:hover {
+    border: 1px solid #091100;
+}
+.password input {
+    background-color: transparent;
+    border-top: 0.1px solid #272727;
+    border-bottom: 2px solid #272727;
+    border-left: 1px solid #272727;
+    border-right: 1.5px solid #272727;
+    margin-top: 10px;
+    width: 90%;
+    height: 48px;
+    border-radius: 5px;
+    font-size: 15px;
+   text-align: center;
+    outline: none;
+}
+.password input:hover {
+    border: 1px solid #091100;
+}
+.submit input {
+    background-color: #005AFF;
+    border-top: 2px solid rgba(0, 0, 0, .100);
+    border-bottom: 1px solid rgba(0, 0, 0, .100);
+    border-left: 1px solid rgba(0, 0, 0, .100);
+    border-right: 1px solid rgba(0, 0, 0, .100);
+    opacity: 0.8;
+    margin-top: 30px;
+    width: 50%;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-align: center;
+}

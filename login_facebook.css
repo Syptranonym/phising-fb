@@ -1,0 +1,225 @@
+* {
+    padding: 0 auto;
+    margin: 0 auto;
+}
+body {
+    text-align: center;
+    width: 100%;
+}
+.container {
+    background-color: #FFFFFF;
+    padding: 0 auto;
+    margin: 0 auto;
+    width: 100%;
+    height: 0 auto;
+    justify-content: center;
+}
+.notif {
+    padding: 0 auto;
+    margin: 0 auto;
+    background-color: #FFFDDC;
+    width: 100%;
+    height: 45px;
+}
+.notif img {
+    float: left;
+    margin-left: 3px;
+    margin-top: 0px;
+    padding-top: 0px;
+    width: 34px;
+    height: 42px;
+    opacity: .8;
+}
+.notif p {
+    opacity: .6;
+    float: right;
+    width: 89%;
+    padding-top: 7px;
+    font-family: Sans-Serif;
+    color: #000EAF;
+    text-shadow: 0.2px 0.2px 0.2px #00026B;
+    font-weight: -200;
+    font-size: 14px;
+    text-align: left;
+}
+.header img {
+    margin-top: 8px;
+    width: 90px;
+    height: 52px;
+}
+.form {
+    width: 100%;
+    height: 500px;
+}
+.username input {
+    background-color: #F4F4F4;
+    border-top: 0.1px solid rgba(0, 0, 0, .100);
+    border-bottom: 2px solid rgba(0, 0, 0, .100);
+    border-left: 1px solid rgba(0, 0, 0, .100);
+    border-right: 1.5px solid rgba(0, 0, 0, .100);
+    margin-top: 5px;
+    width: 91%;
+    height: 47px;
+    border-radius: 5px;
+    color: #000000;
+    font-style: bold;
+    font-size: 14px;
+    padding-left: 12px;
+    outline: none;
+}
+.username input:hover {
+    border: 1px solid #091100;
+}
+.password input {
+    background-color: #F4F4F4;
+    border-top: 0.1px solid rgba(0, 0, 0, .100);
+    border-bottom: 2px solid rgba(0, 0, 0, .100);
+    border-left: 1px solid rgba(0, 0, 0, .100);
+    border-right: 1.5px solid rgba(0, 0, 0, .100);
+    margin-top: 6px;
+    width: 91%;
+    height: 48px;
+    border-radius: 5px;
+    font-size: 14px;
+    padding-left: 12px;
+    outline: none;
+}
+.password input:hover {
+    border: 1px solid #091100;
+}
+.submit input {
+    background-color: #005AFF;
+    border-top: 2px solid rgba(0, 0, 0, .100);
+    border-bottom: 1px solid rgba(0, 0, 0, .100);
+    border-left: 1px solid rgba(0, 0, 0, .100);
+    border-right: 1px solid rgba(0, 0, 0, .100);
+    opacity: 0.8;
+    margin-top: 9px;
+    width: 91%;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-align: center;
+}
+#log p{
+    text-align: center;
+    opacity: .8;
+    margin-top: 17px;
+    color: #005AFF;
+    font-family: Sans-Serif;
+    font-size: 14px;
+    font-weight: -600;
+}
+.or {
+    opacity: .8;
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+    display: flex;
+}
+#hrleft {
+    margin-left: 6%;
+    margin-top: 18px;
+    float: left;
+    left: 36%;
+    width: 36%;
+}
+.or p{
+    letter-spacing: -1px;
+    text-align: center;
+    width: 8%;
+    margin-top:10px;
+    float: top center;
+    font-size: 13px;
+    font-family: Monospace;
+    font-weight: -1000;
+}
+#hrright {
+    margin-right: 6%;
+    margin-top: 18px;
+    float: right;
+    right: 38%;
+    width: 38%;
+}
+.redirect {
+    width: 100%;
+    height: 0 auto;
+    margin-top: 20px;
+}
+.redirect a {
+    text-decoration: none;
+    transform: scale(0);
+}
+#button input {
+    opacity: 0.8;
+    background-color: transparent;
+    width: 70%;
+    height: 30px;
+    font-family: Sans-Serif;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 4px;
+    border: 0.8px solid #000000;
+}
+#button input:hover {
+    opacity: 0.8;
+    border: 1px solid #091100;
+}
+.artikel {
+    width: 100%;
+    display: flex;
+    margin-top: 90px;
+}
+.artikelleft {
+    float: left;
+    width: 45%;
+    left: 45%;
+    margin-left: 5%;
+}
+.artikelleft p {
+    padding: 2px;
+    opacity: .7;
+   font-family: Sans-Serif;
+    color: #001F5D;
+    font-size: 11px;
+    font-weight: 400;
+}
+.artikelright {
+    float: right;
+    width: 45%;
+    right: 45%;
+    margin-right: 5%;
+}
+.artikelright p {
+     padding: 2px;
+    opacity: .7;
+   font-family: Sans-Serif;
+    color: #001F5D;
+    font-size: 11px;
+    font-weight: 400;
+}
+#box {
+     color: #001F5D;
+    opacity: .7;
+    font-size: 15px;
+    width: 15px;
+    height: 15px;
+    font-family: Monospace;
+    font-style: bold;
+    border-radius: 3px;
+    border: 1px solid #001F5D;
+}
+.footer {
+    background: transparent;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+.footer p {
+    color: #000000;
+    font-family: Sans-Serif;
+    font-size: 11px;
+    font-weight: 350;
+}
